@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Animated Button with Preferences</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container" role="main">
+    <h1>Animated Button</h1>
+    <p>Click the button below to trigger a smooth animation and save your preference!</p>
+    <button id="animateBtn" aria-pressed="false" aria-label="Animate Button">Click Me</button>
+
+    <div class="toggle-container">
+      <div class="switch">
+        <input type="checkbox" id="animationToggle" />
+        <span class="slider"></span>
+      </div>
+      <label for="animationToggle">Enable Animations</label>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
